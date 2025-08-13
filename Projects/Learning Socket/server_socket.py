@@ -1,5 +1,7 @@
 # Started to learn the socket modul from python lib
-# Source of learning -> url.de
+# Source of learning:
+# a first look at: https://www.youtube.com/watch?v=7gek0eCnbHs
+# 
 # Read README.md for more information
 # I'll just don't copy the code. I'll try do understand it
 # I'll highlight important parts of the code that were crucial for me to understand, 
