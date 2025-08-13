@@ -11,4 +11,11 @@ client_socket.connect((CLIENT_IP, CLIENT_PORT))
 
 # send & receive messages loop:
 while True:
-    pass
+    chat_message = client_socket.recv(BYTESIZE).decode(ENCODE_UTF8)
+    if chat_message == "/logout":
+        client_socket.send("/logout".encode(ENCODE_UTF8))
+        print("\nLogged out..")
+        break
+    else:
+        print(f"\n{chat_message}")
+        chat_message = input("Chat: ")
