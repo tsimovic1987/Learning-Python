@@ -1,5 +1,10 @@
 # Learning Socket Project
 
+Tools that I use:
+-VSCODE
+-Git Bash
+-Git Graph
+
 I am currently working on understanding the concept of **TCP** and **UDP** connections.  
 This includes learning how they work, their differences, and writing my first pieces of code to experiment with them.
 
