@@ -19,3 +19,6 @@ while True:
     else:
         print(f"\n{chat_message}")
         chat_message = input("Chat: ")
+        client_socket.send(chat_message.encode(ENCODE_UTF8))
+
+client_socket.close()
