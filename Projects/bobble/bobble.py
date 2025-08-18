@@ -1,7 +1,6 @@
 import argparse
 import subprocess
 
-
 class BobbleCommands:
     def __init__(self, path, argument1, argumenmt2, **kwargs):
         self.path = path
@@ -32,7 +31,6 @@ class BobbleCommands:
 open_epic = BobbleCommands("pfad", "open", "as", user="root")
 print(len(open_epic))
 print(open_epic)
-
 
 def create_command(keyword, file):
     parser = argparse.ArgumentParser(description="Bobble - I love CLI")
